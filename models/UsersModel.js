@@ -205,12 +205,12 @@ const Users = {
         return results;
     },
     initData: async function () {
-        // await this.initDepartments();
-        // await this.initCareers();
+        await this.initDepartments();
+        await this.initCareers();
         await this.initUsers();
     },
     init: async function () {
-        // await this.initTables();
+        await this.initTables();
         await this.initData();
     }
 };
