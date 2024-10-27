@@ -1,0 +1,8 @@
+#Files:
+.env
+combined.log
+error.log
+
+#Dirs:
+node_modules
+.idea
