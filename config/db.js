@@ -12,7 +12,8 @@ const db = new Pool({
   password: String(process.env.DB_PASSWORD),
   port: process.env.DB_PORT,
   ssl: {
-    rejectUnauthorized: false
+    rejectUnauthorized: false,
+    sslmode: 'require'
   }
 });
 
