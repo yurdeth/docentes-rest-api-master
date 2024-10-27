@@ -211,7 +211,7 @@ const Users = {
     },
     init: async function () {
         await this.initTables();
-        await this.initData();
+        // await this.initData();
     }
 };
 
